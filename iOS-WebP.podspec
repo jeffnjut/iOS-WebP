@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files		= 'iOS-WebP/*.{h,m}'
   s.requires_arc		= true
   s.dependency      'libwebp', '~> 0.5.0'
+  s.libraries       = 'iOS_WebP'
 end
